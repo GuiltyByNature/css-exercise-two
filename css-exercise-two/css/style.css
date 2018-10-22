@@ -76,10 +76,12 @@ article {
 p {
   text-indent: 25px;
   text-align:left;
+  margin-bottom: 20px;
 }
 
 /* Added author style */
 .author {
+  margin-top: 20px;
   font-style: italic;
   font-weight: bold;
   font-size: 16px;
@@ -94,7 +96,7 @@ p {
 h1 {
   font-weight: bold;
   font-size: 20px;
-  line-height: 1.2;
+  line-height: 1.2em;
   text-transform: uppercase;
   padding: 20px;
 }
