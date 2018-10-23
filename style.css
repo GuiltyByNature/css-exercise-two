@@ -1,0 +1,62 @@
+
+/***added font family ***/
+body {
+  background-color: #1f1f1f;
+  font-family: helvetica, arial, sans-serif;
+  font-size: 12px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 420px;
+  box-sizing: border-box;
+}
+
+/*** change padding by 5px ***/
+nav {
+  background-color: black;
+  margin: 0 auto;
+  padding: 15px 0 15px 15px;
+  position: fixed;
+  width: 420px;
+  box-sizing: border-box;
+}
+
+/***added h1 and h3 styles***/
+h1 {
+  font-size: 18px;
+  font-size-adjust: auto;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 14px;
+  font-size-adjust: auto;
+  font-weight: normal;
+}
+/***added light gray color***/
+.restaurant-list {
+  padding-top: 50px;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: lightgray;
+}
+
+/*** added arrow position ***/
+.arrow {
+  position: relative;
+  top: -20px;
+  text-align: right;
+  margin-right: 10px;
+}
+
+/***Added location styles for borders***/
+.location {
+  padding: 10px;
+  border: 1px solid;
+  border-color: #797979;
+}
+
+.location:hover {
+  background-color: darkgray;
+}
