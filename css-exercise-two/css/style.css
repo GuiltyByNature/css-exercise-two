@@ -9,8 +9,8 @@ body {
 
 /* added height for nav */
 nav {
+  float: right;
   background-color: rgba(0,0,0,.5);
-  float: left;
   position: fixed;
   width: 100%;
   height: 150px;
@@ -32,9 +32,11 @@ a:hover {
     text-decoration: underline;
 }
 
+/* logo float left */
 .logo {
   margin: 20px;
   width: 100px;
+  float: left;
 }
 
 /* changed large and medium pic to 75% */
